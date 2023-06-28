@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Netflix - Watch Tv Shows Online, Watch Movies Online</title>
+  </head>
+  <body>
+    <!-- before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-10 before:shadow-black before:bg-gray-900 -->
+
+    <header
+      class="relative w-full h-screen bg-no-repeat bg-cover bg-[url('../img/background.jpeg')]"
+    >
+      <!-- showcase top -->
+      <div class="h-100 z-10 flex flex-row items-center justify-between">
+        <img
+          src="../img/logo.png"
+          class="h-36 w-44 top-1/2 translate-x-11 left-1/2 mt-5"
+          alt="Netflix"
+        />
+        <a
+          href="#"
+          class="inline-block bg-red-600 text-white justify-end px-1 py-5 rounded-md translate-x-1/2 text-2xl text-center cursor-pointer mr-3"
+          >Sign In</a
+        >
+      </div>
+      <!-- showcase content -->
+      <div
+        class="relative m-auto flex flex-col items-center justify-center text-center mt-36 z-20 text-white"
+      >
+        <h1 class="font-bold text-7xl mb-8">See What's Next</h1>
+        <p class="uppercase font-bold text-4xl mb-8">
+          Watch Anywhere . Cancel Anytime
+        </p>
+        <a href="#" class="btn text-4xl font-semibold">
+          Watch Free for 30 Days
+        </a>
+      </div>
+    </header>
+
+    <section class="bg-gray-800 pt-4 grid grid-cols-3 items-center gap-6 border-b-gray-500">
+
+      <div id="tab-1" class="max-w-lg tab-item m-auto overflow-hidden px-0 py-8 items-center justify-center text-center text-gray-400">
+        <div
+          class="pt-4 hover:text-white hover:cursor-pointer border-b-red-600"
+        >
+          <img src="../img/cancel.webp" class="h-36 w-44" alt="netflix logo" />
+          <p class="m-2">Cancel Anytime. No Commitments!</p>
+        </div>
+      </div>
+
+      <div id="tab-2" class="max-w-lg m-auto tab-item overflow-hidden px-0 py-8 text-gray-400 grid grid-cols-3 gap-6 items-center justify-center text-center">
+
+        <div class="pt-4 hover:text-white hover:cursor-pointer border-b-red-600">
+          <img
+            src="../img/everywhere.png"
+            class="h-36 w-44"
+            alt="netflix logo"
+          />
+          <p class="m-2">Watch Anywhere</p>
+        </div>
+      </div>
+
+      <div id="tab-3" class="max-w-lg m-auto tab-item overflow-hidden px-0 py-8 text-gray-400 grid grid-cols-3 gap-6 items-center justify-center text-center">
+
+        <div class="pt-4 hover:text-white hover:cursor-pointer border-b-red-600">
+          <img
+            src="../img/pricetag.jpeg"
+            class="h-36 w-44"
+            alt="netflix logo"
+          />
+          <p class="m-2">Choose the price that suits you</p>
+        </div>
+      </div>
+
+
+    </section>
+
+    <section class="px-12 py-0 bg-black text-white">
+      <div
+        class="max-w-lg m-auto overflow-hidden px-0 py-8 tems-center justify-center text-center text-gray-400"
+      >
+        <div class="grid grid-cols-2 grid-2">
+
+          <div id="tab-1-content" class="hidden tab-content-item show">
+            <div class="items-center justify-center">
+              <p class="text-2xl m-2">
+                If you decide netflix is not for you - no problem.No
+                commitments. Cancel online Anytime.
+              </p>
+              <a href="#" class="btn text-3xl font-semibold">
+                Watch Free for 30 Days
+              </a>
+            </div>
+            <img src="../img/tv2.webp" alt="" />
+          </div>
+
+          <div id="tab-2-content" class="hidden tab-content-item">
+            <div class="items-center justify-center">
+              <p class="text-2xl m-2">
+                Watch Tv Shows Anytime Anywhere -- personalised for you
+              </p>
+              <a href="#" class="btn text-3xl font-semibold">
+                Watch Free for 30 Days
+              </a>
+            </div>
+            <img src="../img/projector.avif" alt="" />
+          </div>
+
+        <div id="tab-3-content" class="hidden tab-content-item">
+            <div class="items-center justify-center">
+              <p class="text-2xl m-2">
+                ILorem ipsum dolor sit amet consectetur adipisicing elit.
+                Availabe on phone ,tablet wherever you go.
+              </p>
+              <a href="#" class="btn text-3xl font-semibold">
+                Watch Free for 30 Days
+              </a>
+            </div>
+            <img src="../img/home_thetare.jpeg" alt="" />
+          </div>
+        </div>
+
+        <table class="w-100 mt-8 border-collapse border-spacing-0">
+          <thead>
+            <tr>
+              <th class="uppercase p-4 mx-5"></th>
+              <th class="uppercase p-4 mx-5">Basic</th>
+              <th class="uppercase p-4 mx-5">Standard</th>
+              <th class="uppercase p-4 mx-5">Premium</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Monthly price after free month ends on 7/24/2023</td>
+              <td class="text-white px-4 py-5 text-center">$8.99</td>
+              <td class="text-white px-4 py-5 text-center">$11.99</td>
+              <td class="text-white px-4 py-5 text-center">$12.99</td>
+            </tr>
+            <tr>
+              <td class="text-white px-4 py-5 text-center">HD Available</td>
+              <td class="text-white px-4 py-5 text-center">$8.99</td>
+              <td class="text-white px-4 py-5 text-center">$11.99</td>
+              <td class="text-white px-4 py-5 text-center">$12.99</td>
+            </tr>
+            <tr>
+              <td class="text-white px-4 py-5 text-center">
+                Lorem ipsum dolor sit
+              </td>
+              <td class="text-white px-4 py-5 text-center">$8.99</td>
+              <td class="text-white px-4 py-5 text-center">$11.99</td>
+              <td class="text-white px-4 py-5 text-center">$12.99</td>
+            </tr>
+            <tr>
+              <td class="text-white px-4 py-5 text-center">
+                Lorem, ipsum dolor.
+              </td>
+              <td class="text-white px-4 py-5 text-center">$8.99</td>
+              <td class="text-white px-4 py-5 text-center">$11.99</td>
+              <td class="text-white px-4 py-5 text-center">$12.99</td>
+            </tr>
+            <tr>
+              <td class="text-white px-4 py-5 text-center">
+                Lorem ipsum dolor sit.
+              </td>
+              <td class="text-white px-4 py-5 text-center">$8.99</td>
+              <td class="text-white px-4 py-5 text-center">$11.99</td>
+              <td class="text-white px-4 py-5 text-center">$12.99</td>
+            </tr>
+            <tr>
+              <td class="text-white px-4 py-5 text-center">
+                Lorem ipsum dolor sit amet.
+              </td>
+              <td class="text-white px-4 py-5 text-center">$8.99</td>
+              <td class="text-white px-4 py-5 text-center">$11.99</td>
+              <td class="text-white px-4 py-5 text-center">$12.99</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="bg-gray-700 text-xl">
+      <p class="text-white">Question? Call 23923--32-23</p>
+      <div class="grid grid-cols-4 gap-8">
+        <ul class="list-none">
+          <li class="leading-6 text-gray-400 m-4">
+            <a href="#">Lorem, ipsum.</a>
+          </li>
+          <li class="leading-6 text-gray-400 m-4">
+            <a href="#">Lorem, ipsum dolor.</a>
+          </li>
+          <li class="leading-6 text-gray-400 m-4">
+            <a href="#">Lorem, ipsum dolor.</a>
+          </li>
+          <li class="leading-6 text-gray-400 m-4">
+            <a href="#">Lorem, ipsum dolor.</a>
+          </li>
+        </ul>
+        <ul class="list-none">
+          <li class="leading-6 text-gray-400 m-4">
+            <a href="#">Lorem, ipsum.</a>
+          </li>
+          <li class="leading-6 text-gray-400 m-4">
+            <a href="#">Lorem, ipsum dolor.</a>
+          </li>
+          <li class="leading-6 text-gray-400 m-4">
+            <a href="#">Lorem, ipsum dolor.</a>
+          </li>
+          <li class="leading-6 text-gray-400 m-4">
+            <a href="#">Lorem, ipsum dolor.</a>
+          </li>
+        </ul>
+        <ul class="list-none">
+          <li class="leading-6 text-gray-400 m-4">
+            <a href="#">Lorem, ipsum.</a>
+          </li>
+          <li class="leading-6 text-gray-400 m-4">
+            <a href="#">Lorem, ipsum dolor.</a>
+          </li>
+          <li class="leading-6 text-gray-400 m-4">
+            <a href="#">Lorem, ipsum dolor.</a>
+          </li>
+          <li class="leading-6 text-gray-400 m-4">
+            <a href="#">Lorem, ipsum dolor.</a>
+          </li>
+        </ul>
+        <ul class="list-none">
+          <li class="leading-6 text-gray-400 m-4">
+            <a href="#">Lorem, ipsum.</a>
+          </li>
+          <li class="leading-6 text-gray-400 m-4">
+            <a href="#">Lorem, ipsum dolor.</a>
+          </li>
+          <li class="leading-6 text-gray-400 m-4">
+            <a href="#">Lorem, ipsum dolor.</a>
+          </li>
+          <li class="leading-6 text-gray-400 m-4">
+            <a href="#">Lorem, ipsum dolor.</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- <script src="../js/main.js"></script> -->
+  </body>
+</html>
